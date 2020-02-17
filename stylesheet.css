@@ -1,155 +1,264 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html,body{
-	width: 100%;
+html{
 	padding: 0;
 	margin: 0;
-	background-color: #E8E8E8;
 }
-.container{
-	margin: 0;
+body{
 	padding: 0;
+	margin: 0;
+}
+
+body.jumbotron{
+	padding: 0;
+	background-color: #030841;
 }
 header{
 	
 }
-.top-line{
-	width: 100%;
-	height: 23px;
-	background-color: #0F4C75;
-	
-}
-header h1{
-	color: #0F4C75;
-	font-size: 36px;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-	margin-top: 43px;
-}
 
-header nav {
-	
-}
-
-header nav ul{
-	list-style: none;
-	margin-top: 50px;
-}
-header nav ul li{
-	color: #707070;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-	font-size: 27px;
-	margin-right: 31px;
-}
-.header-img{
-    background-image: url("images/roadrece_3.jpg");
-	filter: grayscale(50%);
+.header-top{
+	background-image: url("images/roadrece_3.jpg");
 	background-size: cover;
-	height: 625px;
+    height: 739px;
 }
-.header-message{
+.header-info{
+    
+}
+.brog-header-top{
+	background-color: #030841 !important;
+	height: 200px;
+}
+.brog-header-info{
+    background-color: #030841;
+}
+
+
+.logo-img img{
+	width: 473px;
+	height: 71px;
+}
+.header-info ul{
+	list-style: none;
+}
+.brog-header-info ul{
+	list-style: none;
+}
+.li1{
+	font-size: 27px;
+	font-family: "TA-kai_regular";
+	margin-top: 15px;
+}
+.li2{
+	margin-top: 15px;
+	font-size: 27px;
+	font-family: "TA-kai_regular";
+}
+.li1 a,.li2 a{
+	color: #E8E8E8;
+	padding: 0 20px;
+}
+.header-info h1{
+	color: #E8E8E8;
+	font-size: 28px;
+	font-family: "TA-kai_regular";
+	text-align: center;
+	margin-top: 267px;
+}
+.header-span{
+	font-size: 50px !important;
+}
+.jumbotron .first-message{
+	padding: 0;
+	margin: 0;
+	background-color: #030841;
+	
+}
+.message-content{
+	width: 100%;
+	height: 60px;
+	
+}
+.message-content h2{
+	color: #E8E8E8;
+	font-family: "TA-kai_regular";
+	text-align: center;
+	font-size: 27px;
 	margin: auto auto;
 }
-.header-message h2{
-	color: #FCFCFC;
-	font-size: 40px;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-}
 
-.header-message span{
-	color: #FCFCFC;
-	font-size: 70px;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-}
-.header-message button{
-	width: 222px;
-	height: 50px;
-	background-color: #0F4C75C3;
-	color: #FCFCFC;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-	border-radius: 16px;
-}
 
-.active-img{
-	background-image: url("images/roadrece_1.jpeg");
+.table-active{
+	padding: 0;
+}
+.active{
+	padding: 0;
+	background-image: url("images/roadrece_1.jpg");
+	background-position: 10% 30%;
 	background-size: cover;
-	height: 354px;
+	height: 355px;
 }
 .active-img h2{
-	color: #FCFCFC;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-	font-size: 61px;
+	color: #E8E8E8;
+	font-family: "TA-kai_regular";
 	text-align: center;
+	font-size: 61px;
 }
 .active-img p{
-	color: #FCFCFC;
-	font-family: "Toppan Bunkyu Midashi Gothic";
+	color: #E8E8E8;
+	font-family: "TA-kai_regular";
+	text-align: center;
 	font-size: 20px;
-	text-align: center;
+	margin: auto auto;
 }
-.contents{
-	list-style: none;
-}
-.content-img1{
-	background-image: url("images/roadrece_2.png");
+.content1 img, .content2 img, .content3 img{
+	width: 324px;
 	height: 197px;
-	border-radius: 33px;
+	margin-top: 70px;
 }
-.content-img2{
-	background-image: url("images/trackrece_1.jpg");
-	height: 197px;
-	border-radius: 33px;
+.content1 h3, .content2 h3, .content3 h3{
+	margin-top: 24px;
+	color: #E8E8E8;
+	font-family: "Arial";
+	text-align: left;
+	font-size: 37px;
 }
-.content-img3{
-	background-image: url("images/cyclocloss_1.jpg");
-	height: 197px;
-	border-radius: 33px;
+.road-span{
+	color: #5C8BF7;
+	padding-left: 11px;
+	border-left: #5C8BF7 solid 2px;
 }
-.content-img1 h3,.content-img2 h3,.content-img3 h3{
-	color: #FFFFFF;
-	text-align: center;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-	font-size: 30px;
+.track-span{
+	color: #F15CF7;
+	padding-left: 11px;
+	border-left: #F15CF7 solid 2px;
 }
-.contents p{
-	text-align: center;
-	color: #0F4C75;
+.cyclo-span{
+	color: #F75C86;
+	padding-left: 11px;
+	border-left: #F75C86 solid 2px;
+}
+.content1, .content2, .content3{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px !important;
+}
+.content1 p, .content2 p, .content3 p{
+	margin-top: 24px;
+	color: #E8E8E8;
+	font-family: "TA-kai_regular";
+	text-align: left;
 	font-size: 20px;
-	font-family: "Toppan Bunkyu Midashi Gothic";
+	font-feature-settings:"palt";
 }
-.brog{
-	background-color: #E8E8E8;
+.margin-logo{
+	margin-top: 120px;
+	margin-bottom: 120px;
 }
-.brog h2{
+.margin-logo img{
+	display: block;
+	margin: 0 auto;
+	width: 78px;
+	height: 78px;
+}
+
+.blog-topic h2{
+	color: #E8E8E8;
+	font-family: "TA-kai_regular";
 	text-align: center;
-	font-family: "Toppan Bunkyu Midashi Gothic";
 	font-size: 61px;
-	color: #0F4C75;
 }
-.brog p{
+.blog-topic p{
+	color: #E8E8E8;
+	font-family: "TA-kai_regular";
 	text-align: center;
-	font-family: "Toppan Bunkyu Midashi Gothic";
-	color: #0F4C75;
 	font-size: 20px;
 }
-.contact{
-	background-color: #0F4C75;
+.surch-blog{
+	margin-right: 0!important;
+}
+.input-group-btn{
+	margin-right: auto;
+}
+.blog-topic input{
+	display: block;
+	margin: 0 auto;
+}
+.blog-contents{
+	margin-top: 59px;
+}
+.blog-content1{
+	background-color: #ffffff;
+	height: 197px;
 	
 }
-.contact-info h2{
-	text-align: center;
+.blog-content2{
+	background-color: #ffffff;
+	height: 197px;
+	}
+.blog-content3{
+	background-color: #ffffff;
+	height: 197px;
+	
+}
+.blog-content4{
+	background-color: #ffffff;
+	height: 197px;
+	
+}
+.blog-content5{
+	background-color: #ffffff;
+	height: 197px;
+	
+}
+.blog-content6{
+	background-color: #ffffff;
+	height: 197px;
+	
+}
+.blog-text{
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.contact h2{
 	color: #E8E8E8;
+	font-family: "TA-kai_regular";
+	text-align: center;
 	font-size: 61px;
-	font-family: "Toppan Bunkyu Midashi Gothic";
 }
-.contact-info p{
-	text-align: center;
+
+.form-group label{
 	color: #E8E8E8;
+	font-family: "TA-kai_regular";
+	text-align: left;
 	font-size: 20px;
-	font-family: "Toppan Bunkyu Midashi Gothic";
+	padding: 0;
+	margin-bottom: 7px;
 }
-.form-name{
-	text-align: left !important;
+.submit-bottun{
+	background-color: #FF5562;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "TA-kai_regular";
+}
+.club-logo2{
+	display: block;
+	width: 473px;
+	height: 71px;
+	margin: 0 auto;
+}
+footer{
+	margin-top: 50px;
+}
+.footer-img p{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "PT Serif";
+	text-align: center;
+	margin-top: 7px;
 }
 
 
